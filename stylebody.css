@@ -1,0 +1,45 @@
+body {
+    background: url("images/pexels-pixabay-531880.jpg") ;
+    
+  
+    background-position: center;
+    padding: 25px;
+    background-size: cover;
+  
+  }
+
+  header {
+    font-style: italic;
+    background-color: rgba(59, 36, 35,0.4);
+    
+    /* height: 20px; */
+    /* padding-left: 20px; */
+    padding: 13px;
+    color: white;
+  }
+
+  div.home {
+    
+    background-color: rgba(149, 46, 245, 0.5);
+    width: 90%;
+    height: 90%;
+    margin: 200px auto;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(20, 30, 63);
+  }
+
+  a:link, a:visited {
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  border-radius: 4px;
+  }
+  a:hover, a:active {
+    background-color: rgba(184, 184, 184,0.4);
+    color: white;
+    border-radius: 10px;
+  }

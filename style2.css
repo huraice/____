@@ -1,0 +1,82 @@
+body {
+    background: url("images/pexels-pixabay-531880.jpg") ;
+    
+  
+    background-position: center;
+    padding: 25px;
+    background-size: cover;
+  
+  }
+  
+  #submit {
+    padding: px;
+  }
+  header {
+    font-style: italic;
+    background-color: rgba(59, 36, 35,0.4);
+    
+    /* height: 20px; */
+    /* padding-left: 20px; */
+    padding: 13px;
+    color: white;
+  }
+  
+  a:link, a:visited {
+      color: rgb(255, 255, 255);
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  
+    border-radius: 4px;
+    }
+    a:hover, a:active {
+      background-color: rgba(184, 184, 184,0.4);
+      color: white;
+      border-radius: 10px;
+    }
+  #form {
+      align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    padding: 50px;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  
+    
+  }
+  div.log{
+      margin-top: 5px;
+      align-content: end;
+      color: #fa0000;
+  
+    
+  }
+  p{
+    font-size: 14px;
+    margin: 15px 0px;
+    display: inline-block;
+    padding: 5px 20px ;
+    color: white;
+    
+  }
+  div.admin{
+  
+    color: white;
+    background-color: rgba(72, 119, 63, 0.4);
+    
+    /* padding: 10px  ; */
+    padding: 7px;
+    margin-top: 30px;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    #form {
+      width: 65%;
+      padding: 40px;
+    }
+  }
+  
